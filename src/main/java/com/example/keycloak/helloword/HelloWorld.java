@@ -10,4 +10,9 @@ public class HelloWorld {
 	public String getHelloWorld() {
 		return "Hello World";
 	}
+	
+	@GetMapping("/")
+	public String getHelloKeycloak() {
+		return "Hello Keycloak";
+	}
 }
