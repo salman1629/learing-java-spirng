@@ -1,9 +1,9 @@
-package ReversePolishNotation;
+package Problems;
 
 import java.util.Stack;
 
 public class ReversePolishNotation {
-
+    
 
     public static int evoluteRPN(String[] tokens){
         Stack<String> stack = new Stack<String>();
@@ -34,9 +34,5 @@ public class ReversePolishNotation {
         return returnValue;
     }
 
-    public static void main(String[] args){
-        String [] tokens = {"2","1", "+","3","*"};
-        int value = evoluteRPN(tokens);
-        System.out.println(value);
-    }
+   
 }
